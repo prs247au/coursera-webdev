@@ -1,0 +1,54 @@
+/** HEADER **/
+#header-nav {
+  background-color: #888;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand span {
+  color: black;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+
+#collapsable-nav a { /* Collapsed nav menu text */
+  font-size: 1.2em;
+  background-color: #f0f0f0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 2px solid #551Cff;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav-list a {
+  margin: 2px;
+  border: 2px;
+  color: #551Cff;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.2em;
+}
+/* END HEADER */
+
+/* MAIN CONTENT */
+.category-tile { 
+  position: relative;
+  background-color: #e0e0e0;
+  overflow: hidden;
+  margin: 10px auto;
+}
+
+.category-tile p { 
+  padding: 10px;
+}
+
+/* END MAIN CONTENT */
